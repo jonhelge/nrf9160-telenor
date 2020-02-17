@@ -2,9 +2,9 @@ name: Build Samples
 on: 
   push:
   pull_request:
-  schedule:
+  # schedule:
   # minute hour day-of-month month day-of-week
-  - cron:  '0 * * * *'
+  #- cron:  '0 * * * *'
 
 env:
   ZEPHYR_TOOLCHAIN_VARIANT: gnuarmemb
